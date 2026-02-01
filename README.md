@@ -1,25 +1,36 @@
-# DevOps Engineering Portfolio
+# 🚀 DevOps Portfolio – Anudeep
 
+Welcome! This portfolio showcases real DevOps projects with CI/CD pipelines, security automation, and containerized deployments.
 
-## About
-This repository serves as an overview of independent, real-world inspired DevOps implementations built to production standards.
+---
 
+## 🧑‍💻 About Me
+DevOps Engineer focused on automation, security, and cloud-ready infrastructure.
 
-## Focus Areas
-- CI/CD automation
-- Containerization and security
-- Quality enforcement
-- Linux-based deployments
+---
 
+## 🛠 Skills
+- Jenkins, GitHub Actions
+- Docker, DockerHub
+- SonarQube, Trivy, OWASP Dependency Check
+- Linux, Shell Scripting
+- CI/CD Pipeline Design
 
-## Projects Included
-- Production CI/CD Pipeline
-- Secure Docker Deployment
-- DevOps Security Automation
+---
 
+## 📦 Featured Project
 
-Each project demonstrates hands-on DevOps practices aligned with real production environments.
+### Zomato DevOps CI/CD Pipeline
+🔗 Repo: https://github.com/anudeep3-devOps/DevOps-Project-Zomato-Kastro
 
+**What this project demonstrates**
+- End-to-end Jenkins pipeline
+- Static code analysis using SonarQube
+- Vulnerability scanning using Trivy & OWASP
+- Docker image build and push
+- Deployment on Linux VM
 
-## Purpose
-To showcase practical DevOps engineering skills through transparent, reproducible, and well-documented implementations.
+## Architecture
+```mermaid
+graph LR
+Dev[Developer] --> GitHub --> Jenkins --> DockerHub --> VM
